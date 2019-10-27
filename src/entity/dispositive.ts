@@ -5,8 +5,8 @@ import {
   ManyToOne,
   OneToMany
 } from "typeorm";
-import { TypeDispositive } from "./typeDispositive";
-import { MaestroDispositive } from "./maestro_dispositive";
+import { TypeDispositive } from "./TypeDispositive";
+import { MaestroDispositive } from "./Maestro_dispositive";
 
 @Entity()
 export class Dispositive {

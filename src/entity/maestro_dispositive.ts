@@ -1,6 +1,6 @@
 import { Dispositive } from "./Dispositive";
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from "typeorm";
-import { Maestro } from "./maestro";
+import { Maestro } from "./Maestro";
 
 @Entity()
 export class MaestroDispositive {

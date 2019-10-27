@@ -1,6 +1,6 @@
 import { typeDispositiveEnum } from "../enum/typeDispositive.enum";
 import { getRepository } from "typeorm";
-import { TypeDispositive } from "../entity/typeDispositive";
+import { TypeDispositive } from "../entity/TypeDispositive";
 
 class TypeDispositiveService {
   async typeName(typeEnum: typeDispositiveEnum) {

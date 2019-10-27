@@ -5,14 +5,14 @@ import {
   ManyToOne,
   OneToMany
 } from "typeorm";
-import { MaestroDispositive } from "./maestro_dispositive";
+import { MaestroDispositive } from "./Maestro_dispositive";
 import { MaestroEnum } from "../enum/Mestro.enum";
 
 @Entity()
 export class Maestro {
   @PrimaryGeneratedColumn()
   id!: number;
-  @Column({ type: "enum", enum: ["bits", "paridad", "ip", "puerto"] })
+  @Column({ type: "enum", enum: MaestroEnum })
   name!: MaestroEnum;
   @Column()
   status: boolean = true;

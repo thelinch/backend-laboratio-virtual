@@ -8,6 +8,7 @@ class DispositiveRoutes {
   }
   routes() {
     this.router.post("/create", dispositiveController.create);
+    this.router.get("/all", dispositiveController.all);
   }
 }
 const dispositiveRoutes = new DispositiveRoutes();
