@@ -11,6 +11,8 @@ import indexRoutes from "./routes/index.routes";
 import postRoutes from "./routes/post.routes";
 import userRoutes from "./routes/user.routes";
 import oauthRoutes from "./routes/oauth.routes";
+import maestroRoutes from "./routes/maestro.routes";
+import dispositiveRoutes from "./routes/dispositive.routes";
 
 import { createServer, Server } from "http";
 
@@ -59,6 +61,8 @@ export class MainServer {
     this.app.use("/post", postRoutes);
     this.app.use("/user", userRoutes);
     this.app.use("/oauth", oauthRoutes);
+    this.app.use("/maestro", maestroRoutes);
+    this.app.use("/dispositive", dispositiveRoutes);
   }
   /**
    * Metodo que inicializa el servidor.

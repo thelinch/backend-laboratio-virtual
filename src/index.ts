@@ -10,8 +10,8 @@ let server = appServer.getServer();
  */
 
 // Inicializa servidor de Socket-IO, comentar para desactivar
-let ioServer = new SocketServer(server);
+//let ioServer = new SocketServer(server);
 // Inicializa servidor de GraphQL y ApolloServer, comentar para desactivar
-let graphqlServer = new GraphQLServer(app);
+//let graphqlServer = new GraphQLServer(app);
 
 export { app };
