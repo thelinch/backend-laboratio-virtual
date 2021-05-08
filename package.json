@@ -28,7 +28,7 @@
     "passport-facebook-token": "^3.3.0",
     "reflect-metadata": "^0.1.10",
     "socket.io": "^2.2.0",
-    "typeorm": "0.2.18"
+    "typeorm": "0.2.25"
   },
   "devDependencies": {
     "@types/compression": "0.0.36",
